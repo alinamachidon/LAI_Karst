@@ -1,0 +1,58 @@
+Apparent full-sample Random Forest fit (not independent validation):
+    Method  n  MAE  MSE   R2
+      NDVI 42 0.73 0.99 0.84
+      NDWI 42 0.77 1.06 0.83
+      SAVI 42 0.73 0.94 0.85
+     OSAVI 42 0.73 0.99 0.84
+       EVI 42 0.68 0.85 0.86
+      NDRE 42 0.85 1.22 0.80
+      SNAP 42 0.76 1.08 0.83
+Copernicus 42 0.89 1.38 0.78
+
+Outputs written to: /mnt/data/lai_transparency_package/results
+Pooled linear relationships (Field LAI as response):
+    Method  n  Slope_Field_on_Method  Intercept  Pearson_r    R2
+      NDVI 42                  6.615     -0.623      0.503 0.253
+      NDWI 42                 -7.175     -0.184     -0.474 0.225
+      SAVI 42                  8.967      0.087      0.537 0.289
+     OSAVI 42                  4.633     -0.623      0.503 0.253
+       EVI 42                  6.592     -0.170      0.579 0.336
+      NDRE 42                  9.216     -0.771      0.573 0.328
+      SNAP 42                  1.352      0.870      0.559 0.312
+Copernicus 42                  0.693      1.353      0.546 0.298
+
+Within-site Pearson correlations:
+Site         FK1   FK2   FK3   FK4   FK6   FK7   FK8   FK9
+Method                                                    
+Copernicus  0.87  0.71  0.48  0.91  0.55  0.77  0.70  0.74
+EVI         0.76  0.74  0.63  0.91  0.88  0.97  0.91  0.87
+NDRE        0.95  0.77  0.74  1.00  0.68  0.85  0.82  0.86
+NDVI        0.88  0.68  0.56  0.94  0.56  0.80  0.73  0.81
+NDWI       -0.88 -0.70 -0.56 -0.94 -0.60 -0.80 -0.66 -0.72
+OSAVI       0.88  0.68  0.56  0.94  0.57  0.80  0.73  0.81
+SAVI        0.79  0.69  0.60  0.91  0.74  0.92  0.83  0.83
+SNAP        0.96  0.76  0.63  0.89  0.67  0.79  0.84  0.88
+
+Outputs written to: /mnt/data/lai_transparency_package/results
+Direction-oriented same-date cross-site Spearman correlations:
+Field_Date  2021-05-10  2021-06-15  2021-09-13  2021-10-04  2021-11-11
+Method                                                                
+Copernicus        0.21        0.31       -0.40       -0.50        0.54
+EVI               0.33        0.31       -0.45       -0.39        0.48
+NDRE              0.14       -0.12       -0.55       -0.57        0.45
+NDVI              0.17        0.19       -0.69       -0.50        0.52
+NDWI              0.33        0.10       -0.62       -0.50        0.48
+OSAVI             0.17        0.19       -0.69       -0.50        0.52
+SAVI              0.33        0.12       -0.40       -0.50        0.48
+SNAP             -0.31       -0.05       -0.48       -0.46       -0.24
+
+Percentage range retention:
+Product     Copernicus  SNAP
+Field_Date                  
+2021-05-10       172.2  49.2
+2021-06-15        46.7  13.2
+2021-09-13        37.6  18.3
+2021-10-04        10.6  13.9
+2021-11-11        65.7  18.1
+
+Outputs written to: /mnt/data/lai_transparency_package/results
