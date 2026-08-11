@@ -1,0 +1,9 @@
+ID,Latitude,Longitude,Location,Karst terrain morphology,Forest development phase,Vegetation association,Slope (°),Aspect,Orientation,Altitude (m.a.s.l.)
+FK1,45.81706,14.24496,Planina,doline,forest stand,Omphalodo-Fagetum,15 - 20,all (doline),/,588
+FK2,45.81628,14.24619,Planina,plain,regeneration,Omphalodo-Fagetum,6,330,NW,608
+FK3,45.81916,14.24906,Planina,doline,regeneration,Omphalodo-Fagetum,10,265,NW,565
+FK4,45.81917,14.25229,Planina,plain,forest stand,Omphalodo-Fagetum,14,70,E,550
+FK6,45.78757,14.21004,Postojna,doline,regeneration,Querco-Carpinetum,0 - 20,all (doline),/,635
+FK7,45.78692,14.20901,Postojna,plain,regeneration,Querco-Carpinetum,0,/,/,629
+FK8,45.78709,14.20893,Postojna,plain,forest stand,Querco-Carpinetum,10,"90, 270",E?,628
+FK9,45.78737,14.20891,Postojna,doline,forest stand,Querco-Carpinetum,"0, 15, 30",all (doline),/,629
